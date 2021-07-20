@@ -5,6 +5,18 @@
 
 }
 
+.suggestions-row__notification{
+    background-color: tomato;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top:85px;
+    left: 60px;
+    font-size: 10px;
+
+}
+
 .suggestions-row__title {
     padding-bottom: 18px;
 
@@ -14,11 +26,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 439px;
-    height: 405px;
-    flex-wrap: wrap;
-
-
+   
 }
 
 .suggestions-row__icons__icon {
@@ -30,6 +38,9 @@
     align-items: center;
 
     
+}
+.suggestions-row__icons__icon:last-child{
+    position: relative;
 }
 
 .suggestions-row__icons__icon__img {

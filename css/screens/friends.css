@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #friends-display-link {
     text-align: center;
     display: block;
@@ -40,16 +47,24 @@ i.fa-chevron-right {
 }
 
 #splash-screen {
-    background-color: var(--yellow);
+    background-color: rgb(113, 176, 248);
     position: absolute;
     height: 100vh;
     width: 100vw;
     top:0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 128px;
+    font-size: 20px;
+    font-family: 'ONE-Mobile-POP';
     animation: hideSplashScreen 0.4s ease-in-out forwards;
     animation-delay: 1.5s;
 
 }
+
+#splash-screen-img{
+    width: 200px;
+
+}
+
