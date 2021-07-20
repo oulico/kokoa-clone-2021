@@ -41,11 +41,11 @@ transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input:focus {
-    border-color:var(--yellow);
+    background-color: rgb(184, 216, 253);
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: rgb(113, 175, 248);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
